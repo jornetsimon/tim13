@@ -1,0 +1,16 @@
+version: 2
+
+exposures:
+  - name: sample-exposure
+    meta:
+      experts:
+        users:
+          - simon.jornet@y42.com
+    depends_on: []
+    owner:
+      name: Simon Jornet
+      email: simon.jornet@y42.com
+    type: dashboard
+    config:
+      y42:
+        apiVersion: v1
